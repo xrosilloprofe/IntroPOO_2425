@@ -52,4 +52,15 @@ public class Vehiculo {
         this.color = color;
     }
 
+    //MÉTODOS
+    public void subirMarcha(){
+        if(!cambioAutomatico && numMarcha<cantidadMarchas)
+            numMarcha++;
+    }
+
+    public void bajarMarcha(){
+        if(!cambioAutomatico && numMarcha>0)
+            numMarcha--;
+    }
+
 }
