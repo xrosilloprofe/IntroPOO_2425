@@ -19,5 +19,8 @@ public class Concesionario {
 
         System.out.println(porcheXabi.getNumMarcha());
 
+        System.out.println(porcheXabi);
+
+
     }
 }

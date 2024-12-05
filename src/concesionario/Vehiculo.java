@@ -63,4 +63,11 @@ public class Vehiculo {
             numMarcha--;
     }
 
+    @Override
+    public String toString(){
+        return "Marca: " + marca + " modelo: " + modelo
+                + " color: " + color + " matricula: " + matricula +
+                " cambio "
+                + ((cambioAutomatico)?"automático":"manual con marchas "+cantidadMarchas);
+    }
 }
