@@ -1,8 +1,7 @@
-import concesionario.Vehiculo;
+package ejercicios8y9;
 
-public class Main {
+public class Geometria {
     public static void main(String[] args) {
-
 
     }
 }
