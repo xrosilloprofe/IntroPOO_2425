@@ -10,5 +10,9 @@ public class Geometria {
         System.out.println(destino);
         System.out.println(destino.distancia(origen));
 
+        Segmento linea = new Segmento(origen,destino);
+        linea.moverIzquierda(20);
+        System.out.println(linea);
+
     }
 }
