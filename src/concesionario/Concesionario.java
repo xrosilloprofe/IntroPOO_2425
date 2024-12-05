@@ -18,8 +18,13 @@ public class Concesionario {
         }
 
         System.out.println(porcheXabi.getNumMarcha());
-
         System.out.println(porcheXabi);
+
+        Vehiculo cochePau = new Vehiculo("Porche","Ipace","Gris","4444PPP",true);
+        Taller tallerAndrii = new Taller("El taller de Andrii");
+        tallerAndrii.addVehiculo(cochePau);
+        tallerAndrii.addVehiculo(porcheXabi);
+        System.out.println(tallerAndrii);
 
 
     }
